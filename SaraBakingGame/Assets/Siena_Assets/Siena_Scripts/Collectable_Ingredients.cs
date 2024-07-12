@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectable_GO_Ingredients : MonoBehaviour
+public class Collectable_Ingredients : MonoBehaviour
 {
     [SerializeField]
-    private GameObject [] ingredientToCollect;
+    private GameObject [] ingredientToCollect; //This array will hold the prefabs of ingredients
 
     [SerializeField]
-    private Transform [] ingredientPositions;
+    private Transform [] ingredientPositions; //This array will hold the possible transform.positions the indexes "ingredientToCollect" will be moved to
 
-    private int randomPositionSpot;
+    private int randomPositionSpot; //To generate a random mumber to access an "ingredientPositions" index
 
     void Awake()
     {
