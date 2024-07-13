@@ -12,7 +12,8 @@ public class EyeSpy_Instructions : MonoBehaviour
     [SerializeField]
     private GameObject [] ingredients;
 
-    private bool giveOutACommand = false;
+    private bool giveOutACommand = false; //This bool will be switched to true when needing to move to the next index in the "playerInstructions" array
+    private bool instructionsCompleted = false; //This bool will be switched to true IF all the indexes from "playerInstructions" have been gone through
     private int counter = 0; //int increment for going up indexes for the "playerInstructions" array
 
     void Awake()
@@ -30,7 +31,15 @@ public class EyeSpy_Instructions : MonoBehaviour
         }
 
         if(counter == playerInstructions.Length)
+        {
             Destroy(this.gameObject);
+            instructionsCompleted = true;
+        }
+    }
+
+    public bool InstructionsFulfilled() //This method will be called by the "GameManager" script
+    {
+        return instructionsCompleted;
     }
 
     public void checkIndexes(int ingredientIndex) //Grabbing an int reference from the "Base_Ingredient" script
