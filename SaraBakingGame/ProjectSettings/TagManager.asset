@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Counter1
+  - Counter2
+  - Counter3
+  - Counter4
+  - Counter5
+  - Counter6
   layers:
   - Default
   - TransparentFX
