@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Siena_Scenes/Finding_CakeIngredients.unity
     guid: e941cc69ad5997e42b666f379c8350c1
+  - enabled: 1
+    path: Assets/Siena_Scenes/BakingScene.unity
+    guid: 85ab8a554b70c18438528601ec33eb69
+  - enabled: 1
+    path: Assets/Siena_Scenes/EndScene.unity
+    guid: 70fa894c485d16b4c89586be2a9355ca
   m_configObjects: {}

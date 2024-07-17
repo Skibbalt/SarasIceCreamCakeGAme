@@ -1040,7 +1040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 548663549511710724, guid: 8e408c0692b26c7458d0f9458ad13933, type: 3}
       propertyPath: nextSceneToLoad
-      value: Finding_CakeIngredients
+      value: BakingScene
       objectReference: {fileID: 0}
     - target: {fileID: 1448418502162922904, guid: 8e408c0692b26c7458d0f9458ad13933, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

@@ -1,13 +1,16 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 using UnityEngine.UI;
-
 
 public class UIHandler : MonoBehaviour
 {
     [SerializeField] private Image targetImage; // Assign the UI Image in the inspector
-    [SerializeField] private Sprite one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen,fourteen,fifteen,sixteen,seventeen,eightteen;
+    [SerializeField] private Sprite one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen;
+
+    [SerializeField] private string finalItemTag = "FinishedCake"; // Tag of the final item
+    [SerializeField] private string endSceneName = "EndScene"; // Name of the end game scene
 
     private Dictionary<string, Sprite> spriteMappings;
 
@@ -20,21 +23,20 @@ public class UIHandler : MonoBehaviour
             { "EOilBowl", two },
             { "WetBowl3", three },
             { "WetBowl4", four },
-            {"WetBowl5", five },
-            {"WetBowl6", six },
-            {"WetBowl", seven },
-            {"FlourBowl", eight },
-            {"CocoBowl", nine },
-            {"BakingBowl", ten },
-            {"SugarBowl", eleven },
-            {"SaltBowl", twelve },
-            {"PSugarBowl", thirteen },
-            {"CakeBatter", fourteen },
-            {"CakeBatterPan", fifteen  },
-            {"Cake", sixteen },
-            {"IceCreamCake", seventeen },
-            {"OreoIceCreamCake", eightteen },
-          
+            { "WetBowl5", five },
+            { "WetBowl6", six },
+            { "WetBowl", seven },
+            { "FlourBowl", eight },
+            { "CocoBowl", nine },
+            { "BakingBowl", ten },
+            { "SugarBowl", eleven },
+            { "SaltBowl", twelve },
+            { "PSugarBowl", thirteen },
+            { "CakeBatter", fourteen },
+            { "CakeBatterPan", fifteen },
+            { "Cake", sixteen },
+            { "IceCreamCake", seventeen },
+            { "OreoIceCreamCake", eighteen },
         };
     }
 
@@ -69,5 +71,16 @@ public class UIHandler : MonoBehaviour
         {
             UnityEngine.Debug.LogWarning($"No sprite mapping found for tag: {newItem.tag}");
         }
+
+        // Check if the new item is the final item
+        if (newItem.tag == finalItemTag)
+        {
+            EndGame(); // Call the method to change the scene
+        }
+    }
+
+    private void EndGame()
+    {
+        SceneManager.LoadScene(endSceneName); // Load the end game scene
     }
 }
