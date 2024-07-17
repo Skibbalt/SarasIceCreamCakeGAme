@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc0420568efe0245bbce871244c4018, type: 3}
+  m_Name: SO_IceCreamBakingTasks
+  m_EditorClassIdentifier: 
+  bakingTask:
+  - bakingInstruction: 1. Find the Cookies and Cream Ice Cream
+    bakingItemName: Cookies and Cream
+  - bakingInstruction: 2. Find the Heavy Cream
+    bakingItemName: Heavy Cream
+  - bakingInstruction: 3. Find the Hot Fudge
+    bakingItemName: Hot Fudge
+  - bakingInstruction: 4. Find the Oreos
+    bakingItemName: Oreos
+  - bakingInstruction: 5. Find the Powdered Sugar
+    bakingItemName: Powdered Sugar
+  - bakingInstruction: 6. Find the Vanilla Extract
+    bakingItemName: Vanilla Extract
