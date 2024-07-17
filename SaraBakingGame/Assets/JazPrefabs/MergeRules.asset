@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1db5edc89a3ac43881608d0a44f047, type: 3}
+  m_Name: MergeRules
+  m_EditorClassIdentifier: 
+  mergePairs:
+  - prefab1: {fileID: 2993752226587000479, guid: a766129119b652e4c96e2e328420293d, type: 3}
+    prefab2: {fileID: 4936837503912293256, guid: 99675ae9e97448046b65e9781ae20074, type: 3}
+    resultPrefab: {fileID: 6484756086818297803, guid: bd94943eea97cac42bbc99c6587bde4f, type: 3}
+  - prefab1: {fileID: 6484756086818297803, guid: bd94943eea97cac42bbc99c6587bde4f, type: 3}
+    prefab2: {fileID: 4990245241709155503, guid: 77e2c1e7340bfca4bbb9e920390d7095, type: 3}
+    resultPrefab: {fileID: 742305693017915334, guid: ffd96e9d677f14449a48dc4df836eab8, type: 3}
+  - prefab1: {fileID: 742305693017915334, guid: ffd96e9d677f14449a48dc4df836eab8, type: 3}
+    prefab2: {fileID: 7552572591660145, guid: a46d7460ee44a014190054230f8a349b, type: 3}
+    resultPrefab: {fileID: 505780342258215920, guid: eb19257efb658274eb7f50a6a622824d, type: 3}
+  - prefab1: {fileID: 505780342258215920, guid: eb19257efb658274eb7f50a6a622824d, type: 3}
+    prefab2: {fileID: 7152881918047151031, guid: 56853df9037de014ea1dbfdf8301dfae, type: 3}
+    resultPrefab: {fileID: 2577536826081428037, guid: f7452a16496751c4a8fccc4a311770e5, type: 3}
+  - prefab1: {fileID: 2577536826081428037, guid: f7452a16496751c4a8fccc4a311770e5, type: 3}
+    prefab2: {fileID: 2808761215286258893, guid: 08a47dfc0ab631c42b7e39094423ab0e, type: 3}
+    resultPrefab: {fileID: 751759095025574178, guid: a09faeb67dcc6544b9bcaf7d64248ea1, type: 3}
+  - prefab1: {fileID: 751759095025574178, guid: a09faeb67dcc6544b9bcaf7d64248ea1, type: 3}
+    prefab2: {fileID: 5552204430636426998, guid: 40e8ea25505b6df4ca39a0a52aa13449, type: 3}
+    resultPrefab: {fileID: 9215277320112955822, guid: 4f999d2bdcd5fae459c210fc9c4c8150, type: 3}
