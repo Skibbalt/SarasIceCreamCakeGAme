@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Merger : MonoBehaviour
@@ -41,7 +40,10 @@ public class Merger : MonoBehaviour
 
                 // Instantiate the result prefab at the average position
                 Vector3 newPosition = (transform.position + other.transform.position) / 2;
-                Instantiate(pair.resultPrefab, newPosition, Quaternion.identity);
+                GameObject newPrefab = Instantiate(pair.resultPrefab, newPosition, Quaternion.identity);
+
+                // Trigger the event
+                MergeEventManager.Instance.ItemMerged(newPrefab);
 
                 // Mark both objects as merging
                 isMerging = true;
