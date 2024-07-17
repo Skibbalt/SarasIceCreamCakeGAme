@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25ccf6eb89a2ea94581d2ed87d0150a2, type: 3}
-  m_Name: FirstItemSet
+  m_Name: EggBowlObtained
   m_EditorClassIdentifier: 

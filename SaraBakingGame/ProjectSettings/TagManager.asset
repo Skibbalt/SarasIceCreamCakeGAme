@@ -17,6 +17,34 @@ TagManager:
   - WetBowl4
   - WetBowl5
   - WetBowl6
+  - FlourBag
+  - Sugar
+  - PowderedSugar
+  - Salt
+  - Coco
+  - BakingPowder
+  - IceCream
+  - Cream
+  - Oreos
+  - Whisk
+  - CakePan
+  - Spatula
+  - CakeTower
+  - PipingBag
+  - WetBowl
+  - FlourBowl
+  - CocoBowl
+  - BakingBowl
+  - SugarBowl
+  - SaltBowl
+  - PSugarBowl
+  - CakeBatter
+  - Mixer
+  - OvenOn
+  - CakeBatterPan
+  - Cake
+  - IceCreamCake
+  - OreoIceCreamCake
   layers:
   - Default
   - TransparentFX
