@@ -297,8 +297,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetImage: {fileID: 1534739108}
-  butterBowlSprite: {fileID: 21300000, guid: 060d945b668ba104cab60baaef822874, type: 3}
-  eggBowlSprite: {fileID: 21300000, guid: 474e181c25f695a45a09519b03dc26b3, type: 3}
+  one: {fileID: 21300000, guid: 0881ee6319309a8449e540387cefe880, type: 3}
+  two: {fileID: 21300000, guid: 060d945b668ba104cab60baaef822874, type: 3}
+  three: {fileID: 21300000, guid: 951a91b46af73f143a11f4f23bfc4481, type: 3}
+  four: {fileID: 21300000, guid: b1c7212bc2ff3a141b103076159c42ab, type: 3}
+  five: {fileID: 21300000, guid: 3912e89a4b3865e44ad204df0c14919e, type: 3}
+  six: {fileID: 21300000, guid: c5482989f48ef2d41abd13f380313aba, type: 3}
+  seven: {fileID: 21300000, guid: 3788540dfa60578499c09a9e3d3c27a5, type: 3}
+  eight: {fileID: 21300000, guid: 167661f9d62236f4a905d7633684ecf2, type: 3}
+  nine: {fileID: 21300000, guid: bc864ea3adef80743a93adec1caadcfc, type: 3}
+  ten: {fileID: 21300000, guid: 60633ea2626f1384bbd672678f6b9ade, type: 3}
+  eleven: {fileID: 21300000, guid: 632a5db3060d4c24bac279d9c556970c, type: 3}
+  twelve: {fileID: 21300000, guid: e8ffd082797d9a147b5d1de0d3fff562, type: 3}
+  thirteen: {fileID: 21300000, guid: 61defc98849e41a4985665c2bd46752c, type: 3}
+  fourteen: {fileID: 21300000, guid: e2fb3e262ebd615429c5e44985f5d3eb, type: 3}
+  fifteen: {fileID: 0}
+  sixteen: {fileID: 21300000, guid: 05b886986f8138c42a7ddb12a3bd7474, type: 3}
+  seventeen: {fileID: 21300000, guid: c2235050bda35f14a8eb383fc70e1c4e, type: 3}
+  eightteen: {fileID: 21300000, guid: 3ba3a527a37e70144acc57ea9f6c48ef, type: 3}
 --- !u!224 &33545390 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7268935413150260050, guid: 77e2c1e7340bfca4bbb9e920390d7095, type: 3}
@@ -1145,7 +1161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bd9d031e1f59cf4489edbb8d4aaa902f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 474e181c25f695a45a09519b03dc26b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1671,11 +1687,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4311426125076288528, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.2636642
+      value: -6.75
       objectReference: {fileID: 0}
     - target: {fileID: 4311426125076288528, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.7897296
+      value: -3.96
       objectReference: {fileID: 0}
     - target: {fileID: 4311426125076288528, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1688,6 +1704,22 @@ PrefabInstance:
     - target: {fileID: 4311426125076288528, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368048217241034082, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
+      propertyPath: m_Size.x
+      value: 8.094477
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368048217241034082, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
+      propertyPath: m_Size.y
+      value: 7.2836876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368048217241034082, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.10135174
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368048217241034082, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.3175479
       objectReference: {fileID: 0}
     - target: {fileID: 4539827806938443872, guid: 1a958db50cec5a947b8e71e2d199bc0a, type: 3}
       propertyPath: m_Name
@@ -2120,7 +2152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 966970831555843969, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.09027043
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 966970831555843969, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2138,6 +2170,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: IceCream
       objectReference: {fileID: 0}
+    - target: {fileID: 5406195664198290542, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
+      propertyPath: m_Size.x
+      value: 6.307047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406195664198290542, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
+      propertyPath: m_Size.y
+      value: 7.6338053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406195664198290542, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406195664198290542, guid: 1a7decb89d02cf84f8c7b5f9e4289343, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.7690145
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2154,6 +2202,10 @@ PrefabInstance:
     - target: {fileID: 7552572591660145, guid: a46d7460ee44a014190054230f8a349b, type: 3}
       propertyPath: m_Name
       value: Butter
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322252519310493950, guid: a46d7460ee44a014190054230f8a349b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5760636600130082148, guid: a46d7460ee44a014190054230f8a349b, type: 3}
       propertyPath: m_Pivot.x
@@ -3251,6 +3303,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198942589}
     m_Modifications:
+    - target: {fileID: 4621569651514150806, guid: 7ee21a23377bb4046bc3755f4c422803, type: 3}
+      propertyPath: m_Size.x
+      value: 9.817432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621569651514150806, guid: 7ee21a23377bb4046bc3755f4c422803, type: 3}
+      propertyPath: m_Size.y
+      value: 4.040491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621569651514150806, guid: 7ee21a23377bb4046bc3755f4c422803, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.15202618
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621569651514150806, guid: 7ee21a23377bb4046bc3755f4c422803, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.30404866
+      objectReference: {fileID: 0}
     - target: {fileID: 8122054247795646014, guid: 7ee21a23377bb4046bc3755f4c422803, type: 3}
       propertyPath: m_Name
       value: Oreos

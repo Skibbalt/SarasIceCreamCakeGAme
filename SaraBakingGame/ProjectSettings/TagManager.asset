@@ -45,6 +45,7 @@ TagManager:
   - Cake
   - IceCreamCake
   - OreoIceCreamCake
+  - FinishedCake
   layers:
   - Default
   - TransparentFX

@@ -422,6 +422,22 @@ PrefabInstance:
       propertyPath: ingredientIndex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5474266545107247915, guid: c8bd164a6c1552444a934723d3417a44, type: 3}
+      propertyPath: m_Size.x
+      value: 6.428096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474266545107247915, guid: c8bd164a6c1552444a934723d3417a44, type: 3}
+      propertyPath: m_Size.y
+      value: 8.075898
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474266545107247915, guid: c8bd164a6c1552444a934723d3417a44, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.29079247
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474266545107247915, guid: c8bd164a6c1552444a934723d3417a44, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.9695946
+      objectReference: {fileID: 0}
     - target: {fileID: 5528366303780656684, guid: c8bd164a6c1552444a934723d3417a44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.2036
@@ -775,6 +791,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: AllPurpose_Flour
       objectReference: {fileID: 0}
+    - target: {fileID: 4157951432450218221, guid: c76e64b1432a529438a1c74bc3bcc29a, type: 3}
+      propertyPath: m_Size.x
+      value: 9.200186
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157951432450218221, guid: c76e64b1432a529438a1c74bc3bcc29a, type: 3}
+      propertyPath: m_Size.y
+      value: 10.158634
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157951432450218221, guid: c76e64b1432a529438a1c74bc3bcc29a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.15974522
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157951432450218221, guid: c76e64b1432a529438a1c74bc3bcc29a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.31948733
+      objectReference: {fileID: 0}
     - target: {fileID: 4225396769261415444, guid: c76e64b1432a529438a1c74bc3bcc29a, type: 3}
       propertyPath: instructions
       value: 
@@ -992,6 +1024,22 @@ PrefabInstance:
     - target: {fileID: 6661653503259964150, guid: 50042330c693f604380b8d8b0fa9482a, type: 3}
       propertyPath: ingredientIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972666325992884461, guid: 50042330c693f604380b8d8b0fa9482a, type: 3}
+      propertyPath: m_Size.x
+      value: 3.9071078
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972666325992884461, guid: 50042330c693f604380b8d8b0fa9482a, type: 3}
+      propertyPath: m_Size.y
+      value: 7.283254
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972666325992884461, guid: 50042330c693f604380b8d8b0fa9482a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.20765048
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972666325992884461, guid: 50042330c693f604380b8d8b0fa9482a, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.8688552
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1561,6 +1609,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1049896244}
     m_Modifications:
+    - target: {fileID: 51677064994581850, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Size.x
+      value: 6.8065004
+      objectReference: {fileID: 0}
+    - target: {fileID: 51677064994581850, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Size.y
+      value: 10.340891
+      objectReference: {fileID: 0}
+    - target: {fileID: 51677064994581850, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.378685
+      objectReference: {fileID: 0}
+    - target: {fileID: 51677064994581850, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1893417
+      objectReference: {fileID: 0}
     - target: {fileID: 948263794733635156, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: instructions
       value: 
@@ -1568,6 +1632,22 @@ PrefabInstance:
     - target: {fileID: 948263794733635156, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: ingredientIndex
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150743470647793802, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b1c7212bc2ff3a141b103076159c42ab, type: 3}
+    - target: {fileID: 3150743470647793802, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150743470647793802, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150743470647793802, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3920879545481765564, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: bakingManager
@@ -1580,6 +1660,18 @@ PrefabInstance:
     - target: {fileID: 4498968186131553960, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: m_Name
       value: Milk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1620,6 +1712,10 @@ PrefabInstance:
     - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248238437304510109, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8705192760127949931, guid: e4a396bc87f790e4eb6c0241ae4591a3, type: 3}
       propertyPath: textForTask
@@ -2231,6 +2327,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1049896244}
     m_Modifications:
+    - target: {fileID: 1364335641453015296, guid: 1b9dfc6f0d02b6f4a94909db3c1916e4, type: 3}
+      propertyPath: m_Size.x
+      value: 8.068785
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364335641453015296, guid: 1b9dfc6f0d02b6f4a94909db3c1916e4, type: 3}
+      propertyPath: m_Size.y
+      value: 4.038518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364335641453015296, guid: 1b9dfc6f0d02b6f4a94909db3c1916e4, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.12621975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364335641453015296, guid: 1b9dfc6f0d02b6f4a94909db3c1916e4, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.5778532
+      objectReference: {fileID: 0}
     - target: {fileID: 7345648360919687243, guid: 1b9dfc6f0d02b6f4a94909db3c1916e4, type: 3}
       propertyPath: m_Name
       value: Cocoa_Powder
@@ -3345,6 +3457,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6211004395414965704, guid: 7058fec400b820445a1d6cbe641fd82a, type: 3}
+      propertyPath: m_Size.x
+      value: 9.784915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211004395414965704, guid: 7058fec400b820445a1d6cbe641fd82a, type: 3}
+      propertyPath: m_Size.y
+      value: 6.895138
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211004395414965704, guid: 7058fec400b820445a1d6cbe641fd82a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.5779605
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211004395414965704, guid: 7058fec400b820445a1d6cbe641fd82a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5201597
+      objectReference: {fileID: 0}
     - target: {fileID: 7815937501064753371, guid: 7058fec400b820445a1d6cbe641fd82a, type: 3}
       propertyPath: bakingManager
       value: 
@@ -3438,6 +3566,14 @@ PrefabInstance:
     - target: {fileID: 4069236418403343473, guid: b30689f781b22a04babda7652ecb6979, type: 3}
       propertyPath: ingredientIndex
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916837697226641736, guid: b30689f781b22a04babda7652ecb6979, type: 3}
+      propertyPath: m_Size.y
+      value: 5.59809
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916837697226641736, guid: b30689f781b22a04babda7652ecb6979, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.7990446
       objectReference: {fileID: 0}
     - target: {fileID: 6848697484073703282, guid: b30689f781b22a04babda7652ecb6979, type: 3}
       propertyPath: bakingManager
@@ -3662,6 +3798,22 @@ PrefabInstance:
     - target: {fileID: 4092667691918005381, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
       propertyPath: nameOfBakingItem
       value: Sugar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826220137383172580, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
+      propertyPath: m_Size.x
+      value: 6.697032
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826220137383172580, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
+      propertyPath: m_Size.y
+      value: 6.537349
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826220137383172580, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.13843668
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826220137383172580, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.7686746
       objectReference: {fileID: 0}
     - target: {fileID: 5061876199449457040, guid: fd46de35fe8640e4ca7ecd072cc341a9, type: 3}
       propertyPath: textForTask
