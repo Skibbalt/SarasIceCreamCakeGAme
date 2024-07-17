@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7179952035298744342}
   - component: {fileID: 7701203634233454052}
   - component: {fileID: 4614971517020474766}
-  - component: {fileID: 7797103096257399340}
+  - component: {fileID: 1458864190910523835}
+  - component: {fileID: 6003595758203095474}
   m_Layer: 0
   m_Name: BakingSoda
   m_TagString: Untagged
@@ -131,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8828125, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7797103096257399340
+--- !u!114 &1458864190910523835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,9 +141,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 5328353932532323855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9100d1d2abbeca4b97b21b71506f37f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructions: {fileID: 0}
-  givenIngredientIndex: 0
-  ingredientIndex: 0
+  TaskListComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  oneBakingTask:
+    bakingInstruction: 
+    bakingItemName: 
+  collectionOfBakingTasks: {fileID: 0}
+  textForTask: {fileID: 0}
+  recievedIngredient: 
+--- !u!114 &6003595758203095474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328353932532323855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cd4ab92f321b542bf6b78361ea02fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakingManager: {fileID: 0}
+  nameOfBakingItem: 

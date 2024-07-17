@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2974448203549041730}
   - component: {fileID: 2629154956269664288}
   - component: {fileID: 4304792801948425961}
-  - component: {fileID: 2610252417015803922}
+  - component: {fileID: 4777379452996012148}
+  - component: {fileID: 8310616311619784337}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Untagged
@@ -121,7 +122,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 0.99999994}
   m_Direction: 0
---- !u!114 &2610252417015803922
+--- !u!114 &4777379452996012148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,9 +131,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 4788853067514011534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9100d1d2abbeca4b97b21b71506f37f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructions: {fileID: 0}
-  givenIngredientIndex: 0
-  ingredientIndex: 0
+  TaskListComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  oneBakingTask:
+    bakingInstruction: 
+    bakingItemName: 
+  collectionOfBakingTasks: {fileID: 0}
+  textForTask: {fileID: 0}
+  recievedIngredient: 
+--- !u!114 &8310616311619784337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4788853067514011534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cd4ab92f321b542bf6b78361ea02fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakingManager: {fileID: 0}
+  nameOfBakingItem: 

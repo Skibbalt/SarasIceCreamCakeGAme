@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6803105301986721458}
   - component: {fileID: 978674056454529369}
   - component: {fileID: 7644811851609167201}
-  - component: {fileID: 4584885566242834492}
+  - component: {fileID: 3890273198830021478}
+  - component: {fileID: 1791964242303241386}
   m_Layer: 0
   m_Name: Oreos
   m_TagString: Untagged
@@ -121,7 +122,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4584885566242834492
+--- !u!114 &3890273198830021478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,8 +131,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 7436109434971263702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9100d1d2abbeca4b97b21b71506f37f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  givenIngredientIndex: 0
-  ingredientIndex: 0
+  TaskListComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  oneBakingTask:
+    bakingInstruction: 
+    bakingItemName: 
+  collectionOfBakingTasks: {fileID: 0}
+  textForTask: {fileID: 0}
+  recievedIngredient: 
+--- !u!114 &1791964242303241386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436109434971263702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cd4ab92f321b542bf6b78361ea02fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakingManager: {fileID: 0}
+  nameOfBakingItem: 

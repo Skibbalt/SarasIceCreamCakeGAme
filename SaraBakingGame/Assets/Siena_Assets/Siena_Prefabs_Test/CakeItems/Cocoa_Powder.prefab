@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8138628607400361311}
   - component: {fileID: 667518176718838851}
   - component: {fileID: 1364335641453015296}
-  - component: {fileID: 8480513582100183356}
+  - component: {fileID: 8540602778037216774}
+  - component: {fileID: 8870881741268705126}
   m_Layer: 0
   m_Name: Cocoa_Powder
   m_TagString: Untagged
@@ -131,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
---- !u!114 &8480513582100183356
+--- !u!114 &8540602778037216774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,9 +141,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 7345648360919687243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9100d1d2abbeca4b97b21b71506f37f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructions: {fileID: 0}
-  givenIngredientIndex: 0
-  ingredientIndex: 0
+  TaskListComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  oneBakingTask:
+    bakingInstruction: 
+    bakingItemName: 
+  collectionOfBakingTasks: {fileID: 0}
+  textForTask: {fileID: 0}
+  recievedIngredient: 
+--- !u!114 &8870881741268705126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7345648360919687243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cd4ab92f321b542bf6b78361ea02fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakingManager: {fileID: 0}
+  nameOfBakingItem: 

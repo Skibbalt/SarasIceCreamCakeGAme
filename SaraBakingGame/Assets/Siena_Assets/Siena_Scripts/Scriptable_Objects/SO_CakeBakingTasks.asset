@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc0420568efe0245bbce871244c4018, type: 3}
+  m_Name: SO_CakeBakingTasks
+  m_EditorClassIdentifier: 
+  bakingTask:
+  - bakingInstruction: 1. Find the Flour
+    bakingItemName: Flour
+  - bakingInstruction: 2. Find the Baking Powder
+    bakingItemName: Baking Powder
+  - bakingInstruction: 3. Find the Baking Soda
+    bakingItemName: Baking Soda
+  - bakingInstruction: 4. Find the Butter
+    bakingItemName: Butter
+  - bakingInstruction: 5. Find the Cocoa Powder
+    bakingItemName: Cocoa Powder
+  - bakingInstruction: 6. Find the Eggs
+    bakingItemName: Eggs
+  - bakingInstruction: 7. Find the Milk
+    bakingItemName: Milk
+  - bakingInstruction: 8. Find the Oil
+    bakingItemName: Oil
+  - bakingInstruction: 9. Find the Salt
+    bakingItemName: Salt
+  - bakingInstruction: 10. Find the Sugar
+    bakingItemName: Sugar
+  - bakingInstruction: 11. Find the Water
+    bakingItemName: Water
+  - bakingInstruction: 12. Find the Powdered Sugar
+    bakingItemName: Powdered Sugar
+  - bakingInstruction: 13. Find the Vanilla Extract
+    bakingItemName: Vanilla Extract

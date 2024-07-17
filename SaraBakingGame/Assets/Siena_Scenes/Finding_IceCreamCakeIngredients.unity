@@ -131,10 +131,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 374917776}
     m_Modifications:
+    - target: {fileID: 1791964242303241386, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 28607335}
+    - target: {fileID: 1791964242303241386, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Oreos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 104064998}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 28607335}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4584885566242834492, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
     - target: {fileID: 4584885566242834492, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
       propertyPath: ingredientIndex
       value: 3
@@ -198,6 +242,169 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7436109434971263702, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
   m_PrefabInstance: {fileID: 28607332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &28607335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3890273198830021478, guid: 13125ac793d0fe843acbb7c74395234d, type: 3}
+  m_PrefabInstance: {fileID: 28607332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28607334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &104064994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024354220453016844, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3261412511300189358, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+      propertyPath: m_Name
+      value: I_Spy_Instructions
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+--- !u!114 &104064995 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7572358666788165264, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &104064996 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1983204843048692318, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &104064997 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6603104485059615763, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &104064998 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6790206033470271472, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &104064999 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1172274406317845262, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &367183550
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,10 +692,18 @@ PrefabInstance:
     - target: {fileID: 3697676720204835080, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
     - target: {fileID: 3697676720204835080, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
       propertyPath: ingredientIndex
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817508036138700220, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 744326377}
+    - target: {fileID: 4817508036138700220, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Powdered Sugar
       objectReference: {fileID: 0}
     - target: {fileID: 5239533838025657819, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -534,6 +749,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowderedSugar
       objectReference: {fileID: 0}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 104064999}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 744326377}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -549,6 +792,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5537217624774951529, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
   m_PrefabInstance: {fileID: 744326374}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &744326377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9067722795517977613, guid: ce74a78361b93f54bafaf5ad19fd2d7a, type: 3}
+  m_PrefabInstance: {fileID: 744326374}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744326376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &869453874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -560,7 +814,43 @@ PrefabInstance:
     - target: {fileID: 2033361377293124733, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 104064995}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 869453877}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3075083956923220533, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.2
@@ -601,6 +891,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3608159197131057203, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 869453877}
+    - target: {fileID: 3608159197131057203, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Cookies and Cream
+      objectReference: {fileID: 0}
     - target: {fileID: 7373744136674564494, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
       propertyPath: instructions
       value: 
@@ -632,6 +930,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8293379228375615483, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
   m_PrefabInstance: {fileID: 869453874}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &869453877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2642176125532226817, guid: a48eab21c3ad75f4d9b617d9a54b250f, type: 3}
+  m_PrefabInstance: {fileID: 869453874}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869453876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &937947731
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +1279,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846284080a505e94a84ccebfe73fa6e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructions: {fileID: 1576807559}
+  destroyableIngredients:
+  - {fileID: 869453876}
+  - {fileID: 1936199695}
+  - {fileID: 1559210436}
+  - {fileID: 28607334}
+  - {fileID: 744326376}
+  - {fileID: 2105170506}
   transistionUI: {fileID: 1099397848}
 --- !u!1001 &1559210434
 PrefabInstance:
@@ -980,10 +1295,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 374917776}
     m_Modifications:
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 104064997}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1559210437}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973251274675256810, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 1559210437}
+    - target: {fileID: 1973251274675256810, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Hot Fudge
+      objectReference: {fileID: 0}
     - target: {fileID: 3567306664153376159, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
     - target: {fileID: 3567306664153376159, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
       propertyPath: ingredientIndex
       value: 2
@@ -1047,64 +1406,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6835863463142804075, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
   m_PrefabInstance: {fileID: 1559210434}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1576807556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1576807558}
-  - component: {fileID: 1576807559}
-  m_Layer: 0
-  m_Name: Instructions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1576807558
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576807556}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.20360297, y: -0.12741692, z: 0.04245063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1576807559
+--- !u!114 &1559210437 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 789583806214838595, guid: cb3b45f91f4abd24a8cbaf2a01dd788a, type: 3}
+  m_PrefabInstance: {fileID: 1559210434}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576807556}
+  m_GameObject: {fileID: 1559210436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddfdf0fecadea7243a22df85ef5e6ca8, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInstructions:
-  - 0. Find the Cookies and Cream Ice Cream
-  - 1. Find the Heavy Cream
-  - 2. Find the Hot Fudge
-  - 3. Find the Oreos
-  - 4. Find the Powdered Sugar
-  - 5. Find the Vanilla Extract
-  ingredients:
-  - {fileID: 869453876}
-  - {fileID: 1936199695}
-  - {fileID: 1559210436}
-  - {fileID: 28607334}
-  - {fileID: 744326376}
-  - {fileID: 2105170506}
+--- !u!114 &1611603181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3314938488024983863, guid: aaa3560b22cfc03438714b848e7d69ce, type: 3}
+  m_PrefabInstance: {fileID: 104064994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1881125866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,10 +1467,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 374917776}
     m_Modifications:
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 104064996}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1936199696}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2709484797949848154, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
     - target: {fileID: 2709484797949848154, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
       propertyPath: ingredientIndex
       value: 1
@@ -1192,6 +1551,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7977963072948407124, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 1936199696}
+    - target: {fileID: 7977963072948407124, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Heavy Cream
+      objectReference: {fileID: 0}
     - target: {fileID: 8924006204794180468, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
       propertyPath: m_Name
       value: HeavyCream
@@ -1211,6 +1578,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8924006204794180468, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
   m_PrefabInstance: {fileID: 1936199693}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1936199696 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2504251772169971325, guid: e01c683dfc78754449f98bf5731b484b, type: 3}
+  m_PrefabInstance: {fileID: 1936199693}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936199695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1993732553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,7 +1631,7 @@ PrefabInstance:
     - target: {fileID: 3035706334305187595, guid: 07ce627018752f94ba394c235343630c, type: 3}
       propertyPath: instructions
       value: 
-      objectReference: {fileID: 1576807559}
+      objectReference: {fileID: 0}
     - target: {fileID: 3035706334305187595, guid: 07ce627018752f94ba394c235343630c, type: 3}
       propertyPath: ingredientIndex
       value: 5
@@ -1261,6 +1639,42 @@ PrefabInstance:
     - target: {fileID: 6303619048471854401, guid: 07ce627018752f94ba394c235343630c, type: 3}
       propertyPath: m_Name
       value: VanillaExtract
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: textForTask
+      value: 
+      objectReference: {fileID: 1611603181}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: collectionOfBakingTasks
+      value: 
+      objectReference: {fileID: 11400000, guid: c25520fc7d3e90e44b86d5d1895cf780, type: 2}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2105170507}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateTasks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Baking_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: TaskListComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8212682509370964669, guid: 07ce627018752f94ba394c235343630c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1302,6 +1716,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8655277900526606223, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: bakingManager
+      value: 
+      objectReference: {fileID: 2105170507}
+    - target: {fileID: 8655277900526606223, guid: 07ce627018752f94ba394c235343630c, type: 3}
+      propertyPath: nameOfBakingItem
+      value: Vanilla Extract
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1317,6 +1739,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6303619048471854401, guid: 07ce627018752f94ba394c235343630c, type: 3}
   m_PrefabInstance: {fileID: 2105170504}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105170507 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6847522526922485266, guid: 07ce627018752f94ba394c235343630c, type: 3}
+  m_PrefabInstance: {fileID: 2105170504}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105170506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e4bda83d7b0349bfce882b7ea8095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1325,7 +1758,7 @@ SceneRoots:
   - {fileID: 937947732}
   - {fileID: 376815838}
   - {fileID: 374917776}
-  - {fileID: 1576807558}
+  - {fileID: 104064994}
   - {fileID: 1099397847}
   - {fileID: 1242100985}
   - {fileID: 1141166312}
