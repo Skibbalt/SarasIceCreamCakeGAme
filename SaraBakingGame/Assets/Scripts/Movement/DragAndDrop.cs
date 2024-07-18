@@ -10,9 +10,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private Camera mainCamera;
     private bool isDraggable = true; // Boolean flag to control dragging
 
+    private SFXPlayer audioManager; // Reference to the AudioManager
+
+
     private void Awake()
     {
         mainCamera = Camera.main;
+        audioManager = FindObjectOfType<SFXPlayer>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -25,6 +29,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (!isDraggable) return; // Check if dragging is enabled
+        audioManager.PickSFX();
         UnityEngine.Debug.Log("Begin Drag");
     }
 

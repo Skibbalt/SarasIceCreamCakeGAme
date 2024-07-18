@@ -5,6 +5,12 @@ public class Merger : MonoBehaviour
 {
     [SerializeField] private MergeRules mergeRules;
     private bool isMerging = false; // Flag to track if the object is currently merging
+    private SFXPlayer audioManager; // Reference to the AudioManager
+
+    private void Awake()
+    {
+        audioManager = FindObjectOfType<SFXPlayer>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -36,8 +42,9 @@ public class Merger : MonoBehaviour
             if ((gameObject.tag == pair.prefab1.tag && other.tag == pair.prefab2.tag) ||
                 (gameObject.tag == pair.prefab2.tag && other.tag == pair.prefab1.tag))
             {
+                
                 UnityEngine.Debug.Log($"Merging {gameObject.tag} and {other.tag} to create {pair.resultPrefab.name}");
-
+                audioManager.DropSFX();
                 // Instantiate the result prefab at the average position
                 Vector3 newPosition = (transform.position + other.transform.position) / 2;
                 GameObject newPrefab = Instantiate(pair.resultPrefab, newPosition, Quaternion.identity);
