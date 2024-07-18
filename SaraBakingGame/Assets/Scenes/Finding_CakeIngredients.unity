@@ -351,8 +351,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8. Find the Oil
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2062,8 +2062,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 11. Find the Water
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2196,8 +2196,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 12. Find the Powdered Sugar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2330,8 +2330,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7. Find the Milk
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2880,8 +2880,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 13. Find the Vanilla Extract
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3674,8 +3674,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 9. Find the Salt
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4428,8 +4428,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10. Find the Sugar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

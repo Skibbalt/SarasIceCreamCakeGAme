@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 4. Find the Oreos
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -201,8 +201,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5. Find the Powdered Sugar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -335,8 +335,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 6. Find the Vanilla Extract
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -577,8 +577,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I Spy with My Little Eye...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6a4839200369f354fa91a5d3856d5df9, type: 2}
+  m_sharedMaterial: {fileID: -4552507330080237350, guid: 6a4839200369f354fa91a5d3856d5df9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -711,8 +711,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3. Find the Hot Fudge
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -845,8 +845,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2. Find the Heavy Cream
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -979,8 +979,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1. Find the Cookies and Cream Ice Cream
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
+  m_sharedMaterial: {fileID: -910967871290811468, guid: b6741d7406e204f47b25793a8cf286e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
